@@ -1,11 +1,11 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
+import configureApp from './configure-app';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // enable /vx/ for all paths
-  app.enableVersioning();
+  configureApp(app);
 
   await app.listen(3000);
 }
