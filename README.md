@@ -31,10 +31,13 @@ $ npm run start:prod
 
 ```bash
 # unit tests
-$ npm run test
+$ npm run test:unit
 
 # e2e tests
 $ npm run test:e2e
+
+# unit and e2e tests
+$ npm run test
 
 # test coverage
 $ npm run test:cov
