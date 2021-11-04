@@ -6,7 +6,7 @@
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
 ## Description
-Project to show how to handle endpoint versioning using [Nest](https://github.com/nestjs/nest) framework (version >= 8).
+Project to show how to handle endpoint versioning using [Nest](https://github.com/nestjs/nest) framework (version >= 8). [Related article](https://amcereijo.medium.com/ad774e96dc06?sk=b832dbd7242291248dee7a5f6fcecdb3).
 
 ## Installation
 
